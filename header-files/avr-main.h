@@ -1,10 +1,3 @@
-/* 
- * File: 
- * Author:
- * Comments:
- * Revision history: 
- */
-
 #ifndef F_CPU
 #define F_CPU 3333333
 #endif
@@ -27,9 +20,3 @@ volatile uint8_t elapsed = 0;
 
 
 volatile uint8_t update = 1;
-
-void TCA0_spk();
-
-void TCA0_led();
-
-
