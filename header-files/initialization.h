@@ -1,6 +1,6 @@
 #include <stdint.h>
 
-// enum to keep track of several possible modes
+// enum to keep track of all possible modes
 enum Mode {
     CLOCK,
     COOK_SET_TIME,
@@ -30,16 +30,8 @@ extern volatile uint8_t timer_second;
 
 extern volatile uint8_t timer_show;
 
+// functions initializing peripherals
 void initRTC();
 void initButtons();
 void initTWIpins();
 void initTWI();
-void initTCA0();
-
-void ADC0_init();
-void ADC0_start();
-
-
-
-
-
