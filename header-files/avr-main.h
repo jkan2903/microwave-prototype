@@ -16,11 +16,4 @@
 // display I2C address
 #define DISPLAY_ADDRESS 0x71
 
-<<<<<<< HEAD
 volatile uint8_t elapsed = 0;
-=======
-volatile uint8_t elapsed = 0;
-
-
-volatile uint8_t update = 1;
->>>>>>> refs/remotes/origin/main
