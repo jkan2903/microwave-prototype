@@ -10,8 +10,4 @@
 #include "initialization.h"
 #include "i2c.h"
 
-<<<<<<< HEAD
 #endif
-=======
-#endif
->>>>>>> refs/remotes/origin/main
