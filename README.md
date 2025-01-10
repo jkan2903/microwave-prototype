@@ -6,7 +6,8 @@ This project implements the control logic behind a microwave oven appliance. The
 
 ## Development Process
 (1) Completing the hardware setup:
-![circuit diagram](https://drive.google.com/file/d/1GcKOSwWOXI2DNlMywmE-gnp_hehzCk4P/view?usp=sharing)
+
+![circuit diagram](microwave-prototype.png)
 
 (2) Implementing the essential features
 - Modular design: separating the cooking and timer functionalities from the wall clock display function
